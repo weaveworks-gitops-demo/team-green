@@ -5,7 +5,7 @@ metadata:
   name: podinfo-ingress
   namespace: green-ns
   annotations:
-    ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
   - http:
