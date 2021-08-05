@@ -12,5 +12,5 @@ spec:
         image: ghcr.io/stefanprodan/podinfo:5.1.2
         env:
         - name: PODINFO_UI_COLOR
-          value: "#34577c"
+          value: "#000000"
 ...
