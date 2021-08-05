@@ -10,7 +10,7 @@ spec:
   rules:
   - http:
       paths:
-        - path: /team-green
+        - path: /
           backend:
             serviceName: podinfo
             servicePort: 9898
