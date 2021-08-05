@@ -9,8 +9,8 @@ spec:
     spec:
       containers:
       - name: podinfod
-        image: ghcr.io/stefanprodan/podinfo:6.0.0
+        image: ghcr.io/stefanprodan/podinfo:5.1.2
         env:
         - name: PODINFO_UI_COLOR
-          value: "#000000"
+          value: "#34577c"
 ...
