@@ -1,0 +1,17 @@
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: podinfo-ingress
+  namespace: green-ns
+  annotations:
+    ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+  - http:
+      paths:
+        - path: /team-green
+          backend:
+            serviceName: podinfo
+            servicePort: 9898
+...
